@@ -1,6 +1,6 @@
 # RAG-бот для QuantumForge Software
 
-Интеллектуальный бот на основе Retrieval-Augmented Generation (RAG) для корпоративной базы знаний компании QuantumForge Software.
+Интеллектуальный бот на основе Retrieval-Augmented Generation (RAG) с техниками промптинга (Few-shot и Chain-of-Thought) для корпоративной базы знаний компании QuantumForge Software.
 
 ## Описание проекта
 
@@ -13,8 +13,10 @@ QuantumForge Software - финско-эстонская продуктовая �
 - Сложность подготовки к аудитам (140 часов работы GRC-команды)
 
 ### Решение
-RAG-бот, который:
+RAG-бот с техниками промптинга, который:
 - Быстро и точно отвечает на вопросы сотрудников
+- Использует Few-shot prompting для улучшения качества ответов
+- Применяет Chain-of-Thought для прозрачности рассуждений
 - Выявляет пробелы в документации
 - Помогает системно улучшать качество базы знаний
 - Сокращает время поиска информации
@@ -28,9 +30,9 @@ rag/
 │   └── ...
 ├── src/                        # Исходный код
 │   ├── core/                   # Основная логика
-│   ├── models/                 # Модели и эмбеддинги
+│   ├── rag/                    # RAG-бот с промптингом
 │   ├── vectorstore/            # Векторные базы данных
-│   ├── document_processing/    # Обработка документов
+│   ├── entity_extraction/      # Извлечение сущностей
 │   └── api/                    # API интерфейс
 ├── tests/                      # Тесты
 ├── data/                       # Данные и документы
@@ -41,10 +43,11 @@ rag/
 ## Технологический стек
 
 ### Рекомендуемая конфигурация (Гибридный подход)
-- **LLM**: OpenAI GPT-4
-- **Эмбеддинги**: Sentence-Transformers (all-mpnet-base-v2)
-- **Векторная БД**: ChromaDB с PostgreSQL
-- **Инфраструктура**: AWS EKS
+- **LLM**: OpenAI GPT-3.5-turbo
+- **Эмбеддинги**: Sentence-Transformers (all-MiniLM-L6-v2)
+- **Векторная БД**: ChromaDB
+- **Техники промптинга**: Few-shot + Chain-of-Thought
+- **Интерфейсы**: CLI + REST API
 
 ### Альтернативные варианты
 - Полностью локальный (Llama 2 + FAISS)
@@ -84,9 +87,21 @@ cp .env.example .env
 # Отредактировать .env файл
 ```
 
-5. Запустить приложение:
+5. Запустить RAG-бот:
+
+**CLI интерфейс:**
 ```bash
-python -m uvicorn src.api.main:app --reload
+python scripts/rag_bot_cli.py
+```
+
+**REST API:**
+```bash
+python scripts/run_api.py
+```
+
+**Тестирование:**
+```bash
+python scripts/test_rag_bot.py
 ```
 
 ## Конфигурация
@@ -110,9 +125,11 @@ ENVIRONMENT=development
 
 ### API Endpoints
 
-- `POST /api/chat` - Отправить вопрос боту
-- `POST /api/documents/upload` - Загрузить новые документы
-- `GET /api/health` - Проверка состояния системы
+- `POST /ask` - Задать вопрос RAG-боту
+- `POST /ask/batch` - Задать несколько вопросов
+- `GET /health` - Проверка состояния системы
+- `GET /stats` - Статистика API
+- `GET /examples` - Примеры вопросов
 
 ### Пример использования
 
@@ -120,12 +137,13 @@ ENVIRONMENT=development
 import requests
 
 # Отправить вопрос
-response = requests.post("http://localhost:8000/api/chat", json={
-    "question": "Как настроить CI/CD pipeline для микросервиса?",
-    "user_id": "developer_123"
+response = requests.post("http://localhost:8000/ask", json={
+    "question": "Кто такой Kael Vexar?"
 })
 
-print(response.json()["answer"])
+result = response.json()
+print(f"Ответ: {result['answer']}")
+print(f"Уверенность: {result['confidence']:.1%}")
 ```
 
 ## Разработка
