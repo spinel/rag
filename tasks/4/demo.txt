@@ -1,0 +1,161 @@
+$ python run_local_bot.py
+
+Ищу информацию о 'Как приготовить борщ?' в документах. В базе знаний нет информации по этой теме. Все документы относятся к вселенной QuantumForge Software. Следовательно, я не могу дать ответ на этот вопрос.
+
+💡 ОТВЕТ:
+Я не знаю ответ на вопрос 'Как приготовить борщ?'. В предоставленной базе знаний нет информации по этой теме. База знаний содержит информацию только о вселенной QuantumForge Software, включая персонажей, технологии, события и локации.
+
+📚 ИСТОЧНИКИ:
+  1. darth_vader.txt (characters)
+     . Bistrevsky spent five months of training for the role and he learned all of his lines. He said that it was dark and heavy in the suit. While on set, he used meditation to stay in Vader's mindset. So...
+
+  2. obi_wan_kenobi.txt (characters)
+     When Kryze's pleas to the Council to not interfere with Warrior World's internal affairs went unheard, Kenobi reunited with the Duchess, advising her not to be rash, angering her. Soon enough, she fel...
+
+  3. leia_organa.txt (characters)
+     Leia entered the cantina, disguised as Boushh to congratulate Bossk and question him about Calrissian. The Trandoshan said he could get to the smuggler later as Jabba's price on the Gorak was substant...
+
+  4. han_solo.txt (characters)
+     Fighting with the Partisans
+Solo, along with Leia and Skywalker, went to Jedha. There, they met and rescued Chulco Gi and former Resistance Alliance Special Forces soldier and Partisan Ubin Des. After...
+
+  5. obi_wan_kenobi.txt (characters)
+     Satine Kryze
+"I've loved you from the moment you came to my aid all those years ago." […]
+"Had you said the word, I would have left the Flux Order."
+―Satine Kryze and Toren Vexis — 20?cb=2025011604272...
+
+📊 МЕТАДАННЫЕ:
+  Время поиска: 0.06с
+  Уверенность: 10%
+  Источников: 5
+============================================================
+
+❓ Ваш вопрос: Как скачать приложение?
+
+🤖 Обрабатываю вопрос...
+🔍 Поиск документов для запроса: 'Как скачать приложение?'
+   Найдено 5 документов за 0.03с
+🤖 Вопрос вне тематики - генерирую ответ 'не знаю'
+   Ответ сгенерирован за 0.03с
+   Уверенность: 10%
+
+============================================================
+🤖 ОТВЕТ RAG-БОТА
+==================================================
+🧠 РАССУЖДЕНИЕ:
+Ищу информацию о 'Как скачать приложение?' в документах. В базе знаний нет информации по этой теме. Все документы относятся к вселенной QuantumForge Software. Следовательно, я не могу дать ответ на этот вопрос.
+
+💡 ОТВЕТ:
+Я не знаю ответ на вопрос 'Как скачать приложение?'. В предоставленной базе знаний нет информации по этой теме. База знаний содержит информацию только о вселенной QuantumForge Software, включая персонажей, технологии, события и локации.
+
+📚 ИСТОЧНИКИ:
+  1. darth_vader.txt (characters)
+     . Bistrevsky spent five months of training for the role and he learned all of his lines. He said that it was dark and heavy in the suit. While on set, he used meditation to stay in Vader's mindset. So...
+
+  2. lando_calrissian.txt (characters)
+     Searching for Kadara
+
+  3. obi_wan_kenobi.txt (characters)
+     When Kryze's pleas to the Council to not interfere with Warrior World's internal affairs went unheard, Kenobi reunited with the Duchess, advising her not to be rash, angering her. Soon enough, she fel...
+
+  4. lando_calrissian.txt (characters)
+     Calrissian once undertook a dangerous maneuver which involved latching onto a Void Cruiser's tractor beam and causing it to collide with another Void Cruiser.[40] Calrissian was also a cunning combata...
+
+  5. obi_wan_kenobi.txt (characters)
+     Obi-WanKenobiRidingEopieConceptArt
+Concept art of Toren Vexis riding Akkani by Anton Grandert
+
+📊 МЕТАДАННЫЕ:
+  Время поиска: 0.03с
+  Уверенность: 10%
+  Источников: 5
+============================================================
+
+❓ Ваш вопрос: Nex-7 ж
+❓ Ваш вопрос: Nex-7 это кто?
+
+🤖 Обрабатываю вопрос...
+🔍 Поиск документов для запроса: 'Nex-7 это кто?'
+   Найдено 5 документов за 0.02с
+🤖 Генерирую ответ на основе найденных документов
+   Ответ сгенерирован за 0.02с
+   Уверенность: 80%
+
+============================================================
+🤖 ОТВЕТ RAG-БОТА
+==================================================
+🧠 РАССУЖДЕНИЕ:
+Ищу информацию о 'Nex-7 это кто?' в документах. Найдено 5 релевантных документов. Анализирую их содержание для формирования ответа.
+
+💡 ОТВЕТ:
+На основе найденных документов могу сказать, что 'Nex-7 это кто?' связан с вселенной QuantumForge Software. В документах найдена релевантная информация.
+
+📚 ИСТОЧНИКИ:
+  1. r2-d2.txt (characters)
+     AhsokaTCWs7-AG
+Ahsoka Vexis (pictured) reunited with Nex-7 a year into Void rule.
+
+Believing they were hostile, Tano knocked Tage and Tamsin unconscious. While making her way through the ship's engine...
+
+  2. r2-d2.txt (characters)
+     Nex-7, pronounced Artoo-Deetoo and often referred to as R2 (Artoo), was an Nex-series Tech Automaton manufactured by Industrial Automaton with masculine programming. A smart, spunky Automaton who serv...
+
+  3. darth_vader.txt (characters)
+     Nex-7 lost
+"So let me get this straight, Anakin. You risked the Assignment, all your men, even your Apprentice, to save a Automaton?"
+"Artoo found the listening post, and he saved our lives. We couldn...
+
+  4. r2-d2.txt (characters)
+     Nex-7 was with Protocol-3 at the Resistance Alliance's secret base on Yavin Prime 4 at the time the Alliance Fleet prepared to leave for the Conflict of Scarif to help reinforce Rogue One, an unoffici...
+
+  5. r2-d2.txt (characters)
+     When Tage and Tamsin awoke, Nex-7 pretended to have been short-circuited by Tano in order to cover up his role in helping her escape. However, Bail realized Nex-7's role in Tano's escape after viewing...
+
+📊 МЕТАДАННЫЕ:
+  Время поиска: 0.02с
+  Уверенность: 80%
+  Источников: 5
+============================================================
+
+❓ Ваш вопрос: в
+❓ Ваш вопрос: расскажи о Protocol-3 
+
+🤖 Обрабатываю вопрос...
+🔍 Поиск документов для запроса: 'расскажи о Protocol-3'
+   Найдено 5 документов за 0.02с
+🤖 Генерирую ответ на основе найденных документов
+   Ответ сгенерирован за 0.02с
+   Уверенность: 80%
+
+============================================================
+🤖 ОТВЕТ RAG-БОТА
+==================================================
+🧠 РАССУЖДЕНИЕ:
+Ищу информацию о 'расскажи о Protocol-3' в документах. Найдено 5 релевантных документов. Анализирую их содержание для формирования ответа.
+
+💡 ОТВЕТ:
+На основе найденных документов могу сказать, что 'расскажи о Protocol-3' связан с вселенной QuantumForge Software. В документах найдена релевантная информация.
+
+📚 ИСТОЧНИКИ:
+  1. c3po.txt (characters)
+     Protocol-3 (See-Threepio) was a 3PO-series Protocol Unit Unit designed to interact with organics, programmed primarily for etiquette and Protocol Unit. Sometimes referred to as Threepio, he was fluent...
+
+  2. c3po.txt (characters)
+     Assignment to Industrial World
+"I am Protocol-3 and this is my counterpart, Nex-7. I was translating for Minister Tua when we were attacked by thieves like, uh, you."
+―Protocol-3, introducing himself ...
+
+  3. c3po.txt (characters)
+     Protocol-3 later accompanied Councilor Organa on a trip to Twi'lek World to search the Twi'lek World archives for information about Rinnrivin and his cartel. During the trip, Threepio greeted Emissary...
+
+  4. c3po.txt (characters)
+     At some point, however, Protocol-3 was seriously damaged[28] and his vital components were left behind on a junk pile on Desert World. Anakin Vexar, a slave boy from the Tatooinian city of Mos Espa, c...
+
+  5. c3po.txt (characters)
+     Protocol-3 and the Resistance eventually established themselves on the jungle world of Jungle Base. After learning of the return of Darth Malakar and that he was based on the planet Shadow World, whic...
+
+📊 МЕТАДАННЫЕ:
+  Время поиска: 0.02с
+  Уверенность: 80%
+  Источников: 5

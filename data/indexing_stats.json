@@ -1,0 +1,14 @@
+{
+  "total_documents": 23,
+  "total_chunks": 3950,
+  "indexing_time_seconds": 27.26,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "vector_db_type": "ChromaDB",
+  "index_size_mb": 75.7,
+  "config": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "collection_name": "quantumforge_knowledge",
+    "persist_directory": "./data/vector_index"
+  }
+}
